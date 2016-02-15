@@ -310,6 +310,8 @@ Loop through your devMountainEmployees until you find cahlan, then remove him fr
   //Code Here
 
 // devMountainEmployees.splice(devMountainEmployees.indexOf("cahlan"), 1);
+// splice will remove elements if the first argument is negative by counting backwards from the end of the array
+
 for(var i = 0; i < devMountainEmployees.length; i++) {
   if(devMountainEmployees[i].name === "Cahlan") {
     devMountainEmployees.splice(i, 1);
